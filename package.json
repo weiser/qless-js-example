@@ -1,0 +1,23 @@
+{
+  "name": "qless-js-example",
+  "version": "1.0.0",
+  "description": "a bare bones qless js node app",
+  "main": "index.js",
+  "scripts": {
+    "workers": "node node_modules/qless-js/bin/qless-js-worker.js --redis=none --queue=gatherData --interval=60 --concurrency=2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weiser/qless-js-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weiser/qless-js-example/issues"
+  },
+  "homepage": "https://github.com/weiser/qless-js-example#readme",
+  "dependencies": {
+    "qless-js": "^0.4.0"
+  }
+}
